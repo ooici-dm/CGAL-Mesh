@@ -1,0 +1,9 @@
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_3D_image.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_3D_image_variable_size.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_implicit_sphere.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_implicit_sphere_variable_size.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_optimization_example.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_optimization_lloyd_example.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_polyhedral_domain.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_polyhedral_domain_with_features.dir
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_3/CMakeFiles/mesh_two_implicit_spheres_with_balls.dir
