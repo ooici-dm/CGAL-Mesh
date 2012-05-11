@@ -35,33 +35,51 @@ public:
         B.end_surface();
     }
 };
-//
-//// A modifier adding a point that will be a part of a second triangle with the incremental builder.
-//template <class HDS>
-//class Add_point_to_triangle_mesh : public CGAL::Modifier_base<HDS> {
-//public:
-//	Add_point_to_triangle_mesh() {}
-//    void operator()( HDS& hds) {
-//        // Postcondition: `hds' is a valid polyhedral surface.
-//        CGAL::Polyhedron_incremental_builder_3<HDS> B( hds, true);
-//        B.begin_surface( 3, 1, 6);
-//        typedef typename HDS::Vertex   Vertex;
-//        typedef typename Vertex::Point Point;
-//
-//
-//        B.begin_facet();
-//        B.add_vertex_to_facet( 1);
-//        B.add_vertex_to_facet( 2);
-//        B.end_facet();
-//
-//        B.end_surface();
-//    }
-//};
-
 
 typedef CGAL::Simple_cartesian<double>     Kernel;
 typedef CGAL::Polyhedron_3<Kernel>         Polyhedron;
 typedef Polyhedron::HalfedgeDS             HalfedgeDS;
+
+int do_something(int i){ return ++i;}
+
+void vertex_iterator( Polyhedron& P) {
+    if ( P.size_of_facets() == 0)
+        return;
+    // We use that new vertices/halfedges/facets are appended at the end.
+    std::size_t nv = P.size_of_vertices();
+    Polyhedron::Vertex_iterator last_v = P.vertices_end();
+    -- last_v;  // the last of the old vertices
+    Polyhedron::Edge_iterator last_e = P.edges_end();
+    -- last_e;  // the last of the old edges
+    Polyhedron::Facet_iterator last_f = P.facets_end();
+    -- last_f;  // the last of the old facets
+
+    Polyhedron::Facet_iterator f = P.facets_begin();    // create new center vertices
+    do {
+
+    	// do something here....
+//        create_center_vertex( P, f);
+
+
+    } while ( f++ != last_f);
+
+    std::vector<Kernel::Point_3> pts;                    // smooth the old vertices
+    pts.reserve( nv);  // get intermediate space for the new points
+    ++ last_v; // make it the past-the-end position again
+//    std::transform( P.vertices_begin(), last_v, std::back_inserter( pts),
+//                    do_something);
+    std::copy( pts.begin(), pts.end(), P.points_begin());
+
+    Polyhedron::Edge_iterator e = P.edges_begin();              // flip the old edges
+    ++ last_e; // make it the past-the-end position again
+    while ( e != last_e) {
+    	Polyhedron::Halfedge_handle h = e;
+        ++e; // careful, incr. before flip since flip destroys current edge
+//        flip_edge( P, h);
+    };
+    CGAL_postcondition( P.is_valid());
+}
+
 
 int main() {
     Polyhedron P;
