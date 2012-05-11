@@ -60,9 +60,10 @@ void running_iterators( Polyhedron& P) {
     Polyhedron::Facet_iterator last_f = P.facets_end();
     -- last_f;  // the last of the old facets
 
+    int k = 0;
     Polyhedron::Facet_iterator f = P.facets_begin();    // create new center vertices
     do {
-    	std::cout << "Printing a facet handle: " << std::endl;
+    	std::cout << "Printing a facet index: " << k++ <<  std::endl;
     	// do something here....
 //        create_center_vertex( P, f);
     } while ( f++ != last_f);
@@ -72,15 +73,25 @@ void running_iterators( Polyhedron& P) {
     // traverse the vertices
     // -------------------------------------------------
 
+    std::cout << "Printing the vertex indices: " << std::endl;
+
      int n=0;
      for (Polyhedron::Vertex_iterator vi = P.vertices_begin(); vi != P.vertices_end(); ++vi)
-    	 std::cout << ++n << std::endl;
-//       std::cout << "vertex " << n++ << " = " << *vi << std::endl;
-//     std::cout << std::endl;
+     {
+    	 Kernel::Point_3 p;
+    	 p = vi->point();
+    	 std::cout << "Vertex index: "  << ++n << std::endl;
+    	 std::cout << "p.x() = "  << p.x() << std::endl;
+    	 std::cout << "p.y() = "  << p.y() << std::endl;
+    	 std::cout << "p.z() = "  << p.z() << std::endl;
+
+     }
 
      // -------------------------------------------------
      // traverse the edges
      // -------------------------------------------------
+
+     std::cout << "Printing the edge indices: " << std::endl;
 
      n=0;
      for (Polyhedron::Edge_iterator ei = P.edges_begin(); ei != P.edges_end(); ++ei)
