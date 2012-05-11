@@ -1,2 +1,0 @@
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Surface_mesher/CMakeFiles/mesh_a_3d_gray_image.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Surface_mesher/CMakeFiles/mesh_an_implicit_function.dir

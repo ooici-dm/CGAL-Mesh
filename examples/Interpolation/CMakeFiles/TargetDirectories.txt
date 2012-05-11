@@ -1,7 +1,0 @@
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/interpolation_2.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/linear_interpolation_2.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/nn_coordinates_2.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/nn_coordinates_3.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/rn_coordinates_2.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/sibson_interpolation_2.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Interpolation/CMakeFiles/surface_neighbor_coordinates_3.dir

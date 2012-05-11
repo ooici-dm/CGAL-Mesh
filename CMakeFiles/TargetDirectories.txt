@@ -1,6 +1,0 @@
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGAL/CMakeFiles/CGAL.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/ImageIO/CMakeFiles/CGAL_ImageIO.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/Qt4/CMakeFiles/CGAL_Qt4.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/demos.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/examples.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/install_FindCGAL.dir

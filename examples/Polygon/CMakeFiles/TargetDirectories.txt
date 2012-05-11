@@ -1,4 +1,0 @@
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Polygon/CMakeFiles/Example.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Polygon/CMakeFiles/Polygon.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Polygon/CMakeFiles/polygon_algorithms.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Polygon/CMakeFiles/projected_polygon.dir

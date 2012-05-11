@@ -1,6 +1,0 @@
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/debug.cpp"
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/DemosMainWindow.cpp"
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/GraphicsViewNavigation.cpp"
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/GraphicsViewPolylineInput.cpp"
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/resources.cpp"
-#include "/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/src/CGALQt4/utility.cpp"

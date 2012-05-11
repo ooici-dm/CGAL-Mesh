@@ -1,4 +1,0 @@
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_2/CMakeFiles/conforming.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_2/CMakeFiles/mesh_class.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_2/CMakeFiles/mesh_global.dir
-/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/examples/Mesh_2/CMakeFiles/mesh_with_seeds.dir
