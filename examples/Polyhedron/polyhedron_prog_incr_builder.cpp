@@ -42,33 +42,51 @@ typedef Polyhedron::HalfedgeDS             HalfedgeDS;
 
 int do_something(int i){ return ++i;}
 
-void vertex_iterator( Polyhedron& P) {
+void running_iterators( Polyhedron& P) {
     if ( P.size_of_facets() == 0)
         return;
     // We use that new vertices/halfedges/facets are appended at the end.
     std::size_t nv = P.size_of_vertices();
+
+    std::cout << "The number of vertices in the Polyhedron: " << nv << std::endl;
+
     Polyhedron::Vertex_iterator last_v = P.vertices_end();
     -- last_v;  // the last of the old vertices
+
     Polyhedron::Edge_iterator last_e = P.edges_end();
     -- last_e;  // the last of the old edges
+
     Polyhedron::Facet_iterator last_f = P.facets_end();
     -- last_f;  // the last of the old facets
 
     Polyhedron::Facet_iterator f = P.facets_begin();    // create new center vertices
     do {
-
+    	std::cout << "Printing a facet handle: " << std::endl;
     	// do something here....
 //        create_center_vertex( P, f);
-
-
     } while ( f++ != last_f);
 
-    std::vector<Kernel::Point_3> pts;                    // smooth the old vertices
-    pts.reserve( nv);  // get intermediate space for the new points
-    ++ last_v; // make it the past-the-end position again
-//    std::transform( P.vertices_begin(), last_v, std::back_inserter( pts),
-//                    do_something);
-    std::copy( pts.begin(), pts.end(), P.points_begin());
+    // -------------------------------------------------
+    // traverse the vertices
+    // -------------------------------------------------
+
+     int n=0;
+     for (Polyhedron::Vertex_iterator vi = P.vertices_begin(); vi != P.vertices_end(); ++vi)
+    	 std::cout << ++n << std::endl;
+//       std::cout << "vertex " << n++ << " = " << *vi << std::endl;
+//     std::cout << std::endl;
+
+     // -------------------------------------------------
+     // traverse the edges
+     // -------------------------------------------------
+
+     n=0;
+     for (Polyhedron::Edge_iterator ei = P.edges_begin(); ei != P.edges_end(); ++ei)
+    	 std::cout << ++n << std::endl;
+
+	 // -------------------------------------------------
+	 // Use the std::transform and copy on iterators
+	 // -------------------------------------------------
 
     Polyhedron::Edge_iterator e = P.edges_begin();              // flip the old edges
     ++ last_e; // make it the past-the-end position again
@@ -94,6 +112,8 @@ int main() {
     
     std::cout << "The polyhedron created at this stage" << P << std::endl;
     
+    running_iterators(P);
+
 
     return 0;
 }
