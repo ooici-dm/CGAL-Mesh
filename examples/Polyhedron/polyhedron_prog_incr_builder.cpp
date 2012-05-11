@@ -38,9 +38,7 @@ public:
 
 typedef CGAL::Simple_cartesian<double>     Kernel;
 typedef CGAL::Polyhedron_3<Kernel>         Polyhedron;
-typedef Polyhedron::HalfedgeDS             HalfedgeDS;
-
-int do_something(int i){ return ++i;}
+typedef Polyhedron::HalfedgeDS             HalfedgeDS
 
 // a helper method for running different iterators
 void running_iterators( Polyhedron& P) {
@@ -64,10 +62,24 @@ void running_iterators( Polyhedron& P) {
     Polyhedron::Facet_iterator f = P.facets_begin();    // create new center vertices
     do {
     	std::cout << "Printing a facet index: " << k++ <<  std::endl;
+
+
+//    	Polyhedron::HalfedgeDS hedge;
+//     	hedge = *f.halfedge();
+
+//     	Kernel::Point_3 p;
+//		 p =  hedge->next()->vertex()->point();
+//		 std::cout << "For edge index: " << ++n << std::endl;
+//		 std::cout << "p.x() = "  << p.x() << std::endl;
+//		 std::cout << "p.y() = "  << p.y() << std::endl;
+//		 std::cout << "p.z() = "  << p.z() << std::endl;
+
+
     	// do something here....
 //        create_center_vertex( P, f);
     } while ( f++ != last_f);
 
+    std::cout  << std::endl;
 
     // -------------------------------------------------
     // traverse the vertices
@@ -87,15 +99,27 @@ void running_iterators( Polyhedron& P) {
 
      }
 
+     std::cout  << std::endl;
+
      // -------------------------------------------------
      // traverse the edges
      // -------------------------------------------------
 
-     std::cout << "Printing the edge indices: " << std::endl;
+     std::cout << "Iterating over the edges: " << std::endl;
 
      n=0;
      for (Polyhedron::Edge_iterator ei = P.edges_begin(); ei != P.edges_end(); ++ei)
-    	 std::cout << ++n << std::endl;
+     {
+    	 ei->next();
+    	 Kernel::Point_3 p;
+    	 p =  ei->vertex()->point();
+    	 std::cout << "For edge index: " << ++n << std::endl;
+    	 std::cout << "p.x() = "  << p.x() << std::endl;
+		 std::cout << "p.y() = "  << p.y() << std::endl;
+		 std::cout << "p.z() = "  << p.z() << std::endl;
+
+     }
+     std::cout  << std::endl;
 
 	 // -------------------------------------------------
 	 // Use the std::transform and copy on iterators
