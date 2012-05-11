@@ -38,13 +38,13 @@ public:
 
 typedef CGAL::Simple_cartesian<double>     Kernel;
 typedef CGAL::Polyhedron_3<Kernel>         Polyhedron;
-typedef Polyhedron::HalfedgeDS             HalfedgeDS
+typedef Polyhedron::HalfedgeDS             HalfedgeDS;
 
 // a helper method for running different iterators
 void running_iterators( Polyhedron& P) {
     if ( P.size_of_facets() == 0)
         return;
-    // We use that new vertices/halfedges/facets are appended at the end.
+
     std::size_t nv = P.size_of_vertices();
 
     std::cout << "The number of vertices in the Polyhedron: " << nv << std::endl;
@@ -60,6 +60,7 @@ void running_iterators( Polyhedron& P) {
 
     int k = 0;
     Polyhedron::Facet_iterator f = P.facets_begin();    // create new center vertices
+
     do {
     	std::cout << "Printing a facet index: " << k++ <<  std::endl;
 
@@ -75,8 +76,6 @@ void running_iterators( Polyhedron& P) {
 //		 std::cout << "p.z() = "  << p.z() << std::endl;
 
 
-    	// do something here....
-//        create_center_vertex( P, f);
     } while ( f++ != last_f);
 
     std::cout  << std::endl;
@@ -122,16 +121,17 @@ void running_iterators( Polyhedron& P) {
      std::cout  << std::endl;
 
 	 // -------------------------------------------------
-	 // Use the std::transform and copy on iterators
+	 // Do something else with the edge iterators
 	 // -------------------------------------------------
 
-    Polyhedron::Edge_iterator e = P.edges_begin();              // flip the old edges
+    Polyhedron::Edge_iterator e = P.edges_begin();
     ++ last_e; // make it the past-the-end position again
+
     while ( e != last_e) {
     	Polyhedron::Halfedge_handle h = e;
-        ++e; // careful, incr. before flip since flip destroys current edge
-//        flip_edge( P, h);
+        ++e;
     };
+
     CGAL_postcondition( P.is_valid());
 }
 
