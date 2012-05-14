@@ -33,8 +33,49 @@ public:
 		B.end_facet();
 
         B.end_surface();
+
+        std::cout << std::endl;
+		std::cout << "Success creating a triangle!"
+						  << std::endl;
+		std::cout << std::endl;
+
     }
 };
+
+// A modifier creating a quadrilateral with the incremental builder.
+template <class HDS>
+class Build_quadrilateral : public CGAL::Modifier_base<HDS> {
+public:
+	Build_quadrilateral() {}
+    void operator()( HDS& hds) {
+        // Postcondition: `hds' is a valid polyhedral surface.
+        CGAL::Polyhedron_incremental_builder_3<HDS> B( hds, true);
+        B.begin_surface( 4, 1, 8);
+        typedef typename HDS::Vertex   Vertex;
+        typedef typename Vertex::Point Point;
+
+        B.add_vertex( Point( 0, 0, 0));
+        B.add_vertex( Point( 1, 0, 0));
+        B.add_vertex( Point( 0, 1, 0));
+        B.add_vertex( Point( 2, 2, 0));
+
+        B.begin_facet();
+        B.add_vertex_to_facet( 0);
+        B.add_vertex_to_facet( 1);
+        B.add_vertex_to_facet( 2);
+        B.add_vertex_to_facet( 3);
+        B.end_facet();
+
+        B.end_surface();
+
+        std::cout << std::endl;
+        std::cout << "Success creating a quadrilateral!"
+                          << std::endl;
+        std::cout << std::endl;
+
+    }
+};
+
 
 typedef CGAL::Simple_cartesian<double>     Kernel;
 typedef CGAL::Polyhedron_3<Kernel>         Polyhedron;
@@ -48,6 +89,10 @@ void running_iterators( Polyhedron& P) {
     std::size_t nv = P.size_of_vertices();
 
     std::cout << "The number of vertices in the Polyhedron: " << nv << std::endl;
+    std::cout << "The number of facets in the Polyhedron: " << P.size_of_facets() << std::endl;
+    std::cout << "The number of half edges in the Polyhedron: " << P.size_of_halfedges() << std::endl;
+
+    std::cout << std:: endl;
 
     Polyhedron::Vertex_iterator last_v = P.vertices_end();
     -- last_v;  // the last of the old vertices
@@ -64,9 +109,7 @@ void running_iterators( Polyhedron& P) {
     do {
     	std::cout << "Printing a facet index: " << k++ <<  std::endl;
 
-
-//    	Polyhedron::HalfedgeDS hedge;
-//     	hedge = *f.halfedge();
+     	f->halfedge();
 
 //     	Kernel::Point_3 p;
 //		 p =  hedge->next()->vertex()->point();
@@ -91,7 +134,7 @@ void running_iterators( Polyhedron& P) {
      {
     	 Kernel::Point_3 p;
     	 p = vi->point();
-    	 std::cout << "Vertex index: "  << ++n << std::endl;
+    	 std::cout << "Vertex index: "  << n++ << std::endl;
     	 std::cout << "p.x() = "  << p.x() << std::endl;
     	 std::cout << "p.y() = "  << p.y() << std::endl;
     	 std::cout << "p.z() = "  << p.z() << std::endl;
@@ -112,7 +155,7 @@ void running_iterators( Polyhedron& P) {
     	 ei->next();
     	 Kernel::Point_3 p;
     	 p =  ei->vertex()->point();
-    	 std::cout << "For edge index: " << ++n << std::endl;
+    	 std::cout << "For edge index: " << n++ << std::endl;
     	 std::cout << "p.x() = "  << p.x() << std::endl;
 		 std::cout << "p.y() = "  << p.y() << std::endl;
 		 std::cout << "p.z() = "  << p.z() << std::endl;
@@ -136,21 +179,20 @@ void running_iterators( Polyhedron& P) {
 }
 
 
-
 int main() {
     Polyhedron P;
-    Build_triangle<HalfedgeDS> triangle;
-    P.delegate( triangle);
-    CGAL_assertion( P.is_triangle( P.halfedges_begin()));
+    Build_quadrilateral<HalfedgeDS> quad;
+    P.delegate( quad);
+//    CGAL_assertion( P.is_triangle( P.halfedges_begin()));
     
     CGAL::set_pretty_mode(std::cout);
-    
-    std::cout << "Success creating two triangles: "
-                  << std::endl;
     
     std::cout << "The polyhedron created at this stage" << P << std::endl;
     
     running_iterators(P);
+
+    // We use std::transform to put double and vectors on the iterators
+
 
 
     return 0;
