@@ -42,9 +42,8 @@ if ( CGAL_FOUND )
   create_single_source_cgal_program( "polyhedron_prog_incr_builder_sw_triangle.cpp" )
   create_single_source_cgal_program( "polyhedron_prog_incr_builder_sw_1.cpp" )
   create_single_source_cgal_program( "polyhedron_prog_incr_builder_backup.cpp" )
+  create_single_source_cgal_program( "polyhedron_prog_incr_builder.cpp" )
   
-  
-
 else()
   
     message(STATUS "This program requires the CGAL library, and will not be compiled.")
