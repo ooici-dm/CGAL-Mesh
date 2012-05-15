@@ -5,7 +5,7 @@ Prototype work on a polyhedral mesh object API using CGAL
 
 Installing CGAL:
 
-Clone the CGAL repository using,
+Clone the CGAL repository using:
 
 $ git clone git@github.com:ooici-dm/CGAL-Mesh.git
 
@@ -27,28 +27,30 @@ $ cmake .
 
 $ make
 
-This will compile all the cpp files in that directory (actually it will compile all the .cpp files mentioned in the 
+This will compile all the .cpp files in that directory (actually it will compile all the .cpp files mentioned in the 
 CMakeLists.txt file in that same directory, but I will come to that piece next).
 
 The executables are going to be generated in the same folder. To run the executable, 
 $ ./file_name_for_executable
 
-For example, if you are in CGAL-4.0/examples/Polyhedron, and you have run the above two make commands, if there is a file, 
-polyhedron_prog_incr_builder.cpp, it will generate an executable, polyhedron_prog_incr_builder, and to run this 
-executable, do the following:
+For example, if you are in CGAL-4.0/examples/Polyhedron and you have run the above two make commands, for every .cpp file there
+an executable will be generated. So if there is a file, polyhedron_prog_incr_builder.cpp, it will also generate an 
+executable, polyhedron_prog_incr_builder, and you can run this executable with the following command:
+
 $ ./polyhedron_prog_incr_builder
 
 And viola! you will see the output spilling on the console.
 
 Now as you start writing your own code, you will make your own .cpp files. In that case, you need to
-include them in the CMakeLists.txt in the same directory as the .cpp files so that they are compiled too when you run 
-cmake.
+include them in the CMakeLists.txt in the same directory as the .cpp files you just wrote so that they are compiled too 
+when you use cmake.
 
 To do the above, open CMakeLists.txt. You will see several lines like the following:
 
 create_single_source_cgal_program( "polyhedron_prog_incr_builder.cpp" )
 
 If you have created a new file, you need to add a line to CMakeLists.txt for that file. For example:
+
 create_single_source_cgal_program( "my_new_file.cpp" )
 
 Now you can use, cmake ., and make, in succession in order to generate the executables as usual.
