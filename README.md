@@ -44,9 +44,8 @@ $ ./polyhedron_prog_incr_builder
 
 And viola! you will see the output spilling on the console.
 
-Now as you start writing your own code, you will make your own .cpp files. In that case, you need to
-include them in the CMakeLists.txt in the same directory as the .cpp files you just wrote so that they are compiled too 
-when you use cmake.
+Now as you start writing your own code, you need to include them in the CMakeLists.txt that is already there in the same directory 
+so that they are compiled too  when you use cmake.
 
 To do the above, open CMakeLists.txt. You will see several lines like the following:
 
