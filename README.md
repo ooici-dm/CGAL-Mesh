@@ -53,7 +53,7 @@ $ cmake .
 $ make
 
 This will compile all the .cpp files in that directory (actually it will compile all the .cpp files mentioned in the 
-CMakeLists.txt file in that same directory, but I will come to that piece next).
+CMakeLists.txt file in the same directory, but I will come to that piece next).
 
 The executables are going to be generated in the same folder. To run the executable, 
 $ ./file_name
