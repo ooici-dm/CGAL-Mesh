@@ -22,6 +22,7 @@ Go to any directory (or subdirectory) of your interest. If there are any .cpp fi
 run the following commands in the same directory where the .cpp files are:
 
 $ cmake .
+
 $ make
 
 This will compile all the cpp files in that directory (actually it will compile all the .cpp files mentioned in the 
