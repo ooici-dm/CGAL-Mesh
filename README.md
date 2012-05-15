@@ -1,10 +1,10 @@
 CGAL-Mesh
-=========
+----------
 
 Prototype work on a polyhedral mesh object API using CGAL
 
 INSTALLING CGAL:
----------------
+===============
 
 Clone the CGAL repository using:
 
