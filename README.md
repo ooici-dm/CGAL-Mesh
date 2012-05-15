@@ -12,12 +12,9 @@ $ git clone git@github.com:ooici-dm/CGAL-Mesh.git
 
 (or if that does not work, try $ git clone https://github.com/ooici-dm/CGAL-Mesh )
 
-Alternatively, you can go to the website to download the source code. 
+Alternatively, you can download the source code:
 
 https://gforge.inria.fr/frs/?group_id=52&release_id=6970
-
-Please note that you may be required to submit an online form. However, the form is just for some basic information, 
-and submitting the form immediately opens the door to downloadable source.
 
 After you have the repository in a directory of your choosing (let us say you have called it CGAL-4.0), you need to set 
 the environment variable, CGAL_DIR, so that CGAL can find its files in order to run:
