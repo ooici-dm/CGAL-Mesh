@@ -114,9 +114,9 @@ void running_iterators( Polyhedron& P) {
      }
      std::cout  << std::endl;
 
-	 // -------------------------------------------------
+	 // -----------------------------------------------
 	 // Do something else with the edge iterators
-	 // -------------------------------------------------
+	 // -----------------------------------------------
 
     Polyhedron::Edge_iterator e = P.edges_begin();
     ++ last_e; // make it the past-the-end position again
