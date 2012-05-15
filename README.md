@@ -52,3 +52,46 @@ If you have created a new file, you need to add a line to CMakeLists.txt for tha
 create_single_source_cgal_program( "my_new_file.cpp" )
 
 Now you can use, cmake ., and make, in succession in order to generate the executables as usual.
+
+REFERENCES:
+
+1. CGAL FAQs: http://www.cgal.org/FAQ.html
+
+I found these FAQs very informative. It lists all the concerns that several users had about how
+CGAL could fit their own projects, and the answers from the CGAL team were very honest, direct and
+illuminating.
+
+2. CGAL Source files: https://gforge.inria.fr/frs/?group_id=52&release_id=6970
+
+3. Tutorials: http://www.cgal.org/Tutorials/
+
+4. Package Overview : http://www.cgal.org/Manual/latest/doc_html/cgal_manual/packages.html#part_II 
+
+5. Installation Guide: 
+
+http://www.cgal.org/Manual/latest/doc_html/installation_manual/Chapter_installation_manual.html#Section_1
+
+6. CGAL-Python bindings:  The CGAL team does not maintain the project anymore. They recommend that if programmers want
+to write python binding for the cgal code, they could use SWIG.
+
+http://cgal-python.gforge.inria.fr/
+
+7. CGAL Polyhedron class: 
+
+http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Polyhedron_3.html
+
+http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Polyhedron_ref/Class_Polyhedron_3-Traits---Halfedge.html
+
+8. CGAL half edge:
+
+http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Halfedge.html#Cross_link_anchor_2
+
+9. CGAL Vertex:
+
+http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Vertex.html#Cross_link_anchor_1
+
+10. CGAL Facet:
+
+http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Facet.html#Cross_link_anchor_3
+
+
