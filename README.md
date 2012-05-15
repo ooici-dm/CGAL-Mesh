@@ -93,38 +93,38 @@ http://www.cgal.org/FAQ.html
 
 https://gforge.inria.fr/frs/?group_id=52&release_id=6970
 
-3. Tutorials: 
+3) Tutorials: 
 
 http://www.cgal.org/Tutorials/
 
-4. Package Overview : 
+4) Package Overview : 
 
 http://www.cgal.org/Manual/latest/doc_html/cgal_manual/packages.html#part_II 
 
-5. Installation Guide: 
+5) Installation Guide: 
 
 http://www.cgal.org/Manual/latest/doc_html/installation_manual/Chapter_installation_manual.html#Section_1
 
-6. CGAL-Python bindings:  The CGAL team does not maintain the project anymore. They recommend that if programmers want
+6) CGAL-Python bindings:  The CGAL team does not maintain the project anymore. They recommend that if programmers want
 to write python binding for the cgal code, they could use SWIG.
 
 http://cgal-python.gforge.inria.fr/
 
-7. CGAL Polyhedron class: 
+7) CGAL Polyhedron class: 
 
 http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Polyhedron_3.html
 
 http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Polyhedron_ref/Class_Polyhedron_3-Traits---Halfedge.html
 
-8. CGAL half edge:
+8) CGAL half edge:
 
 http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Halfedge.html#Cross_link_anchor_2
 
-9. CGAL Vertex:
+9) CGAL Vertex:
 
 http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Vertex.html#Cross_link_anchor_1
 
-10. CGAL Facet:
+10) CGAL Facet:
 
 http://graphics.stanford.edu/courses/cs368-00-spring/TA/manuals/CGAL/ref-manual2/Polyhedron/Facet.html#Cross_link_anchor_3
 
