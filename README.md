@@ -36,8 +36,9 @@ The executables are going to be generated in the same folder. To run the executa
 $ ./file_name_for_executable
 
 For example, if you are in CGAL-4.0/examples/Polyhedron and you have run the above two make commands, for every .cpp file,
-an executable will be generated. So if there is a file, polyhedron_prog_incr_builder.cpp, it will also generate an 
-executable, polyhedron_prog_incr_builder, and you can run this executable with the following command:
+an executable would have been generated. Therefore if there was a .cpp file, polyhedron_prog_incr_builder.cpp, it would
+have also generated an executable, polyhedron_prog_incr_builder. You can now run this executable using the following 
+command:
 
 $ ./polyhedron_prog_incr_builder
 
