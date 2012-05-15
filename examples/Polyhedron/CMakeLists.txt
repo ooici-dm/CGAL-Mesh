@@ -39,6 +39,11 @@ if ( CGAL_FOUND )
   create_single_source_cgal_program( "polyhedron_prog_vertex_color.cpp" )
   create_single_source_cgal_program( "polyhedron_prog_vertex_normal.cpp" )
   create_single_source_cgal_program( "polyhedron_self_intersection.cpp" )
+  create_single_source_cgal_program( "polyhedron_prog_incr_builder_sw_triangle.cpp" )
+  create_single_source_cgal_program( "polyhedron_prog_incr_builder_sw_1.cpp" )
+  create_single_source_cgal_program( "polyhedron_prog_incr_builder_backup.cpp" )
+  
+  
 
 else()
   
