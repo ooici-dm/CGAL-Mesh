@@ -151,6 +151,45 @@ polyhedron_prog_incr_builder/fast:
 .PHONY : polyhedron_prog_incr_builder/fast
 
 #=============================================================================
+# Target rules for targets named polyhedron_prog_incr_builder_backup
+
+# Build rule for target.
+polyhedron_prog_incr_builder_backup: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polyhedron_prog_incr_builder_backup
+.PHONY : polyhedron_prog_incr_builder_backup
+
+# fast build rule for target.
+polyhedron_prog_incr_builder_backup/fast:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_backup.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_backup.dir/build
+.PHONY : polyhedron_prog_incr_builder_backup/fast
+
+#=============================================================================
+# Target rules for targets named polyhedron_prog_incr_builder_sw_1
+
+# Build rule for target.
+polyhedron_prog_incr_builder_sw_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polyhedron_prog_incr_builder_sw_1
+.PHONY : polyhedron_prog_incr_builder_sw_1
+
+# fast build rule for target.
+polyhedron_prog_incr_builder_sw_1/fast:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/build
+.PHONY : polyhedron_prog_incr_builder_sw_1/fast
+
+#=============================================================================
+# Target rules for targets named polyhedron_prog_incr_builder_sw_triangle
+
+# Build rule for target.
+polyhedron_prog_incr_builder_sw_triangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polyhedron_prog_incr_builder_sw_triangle
+.PHONY : polyhedron_prog_incr_builder_sw_triangle
+
+# fast build rule for target.
+polyhedron_prog_incr_builder_sw_triangle/fast:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/build
+.PHONY : polyhedron_prog_incr_builder_sw_triangle/fast
+
+#=============================================================================
 # Target rules for targets named polyhedron_prog_normals
 
 # Build rule for target.
@@ -401,6 +440,78 @@ polyhedron_prog_incr_builder.s: polyhedron_prog_incr_builder.cpp.s
 polyhedron_prog_incr_builder.cpp.s:
 	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder.dir/build.make CMakeFiles/polyhedron_prog_incr_builder.dir/polyhedron_prog_incr_builder.cpp.s
 .PHONY : polyhedron_prog_incr_builder.cpp.s
+
+polyhedron_prog_incr_builder_backup.o: polyhedron_prog_incr_builder_backup.cpp.o
+.PHONY : polyhedron_prog_incr_builder_backup.o
+
+# target to build an object file
+polyhedron_prog_incr_builder_backup.cpp.o:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_backup.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_backup.dir/polyhedron_prog_incr_builder_backup.cpp.o
+.PHONY : polyhedron_prog_incr_builder_backup.cpp.o
+
+polyhedron_prog_incr_builder_backup.i: polyhedron_prog_incr_builder_backup.cpp.i
+.PHONY : polyhedron_prog_incr_builder_backup.i
+
+# target to preprocess a source file
+polyhedron_prog_incr_builder_backup.cpp.i:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_backup.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_backup.dir/polyhedron_prog_incr_builder_backup.cpp.i
+.PHONY : polyhedron_prog_incr_builder_backup.cpp.i
+
+polyhedron_prog_incr_builder_backup.s: polyhedron_prog_incr_builder_backup.cpp.s
+.PHONY : polyhedron_prog_incr_builder_backup.s
+
+# target to generate assembly for a file
+polyhedron_prog_incr_builder_backup.cpp.s:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_backup.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_backup.dir/polyhedron_prog_incr_builder_backup.cpp.s
+.PHONY : polyhedron_prog_incr_builder_backup.cpp.s
+
+polyhedron_prog_incr_builder_sw_1.o: polyhedron_prog_incr_builder_sw_1.cpp.o
+.PHONY : polyhedron_prog_incr_builder_sw_1.o
+
+# target to build an object file
+polyhedron_prog_incr_builder_sw_1.cpp.o:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/polyhedron_prog_incr_builder_sw_1.cpp.o
+.PHONY : polyhedron_prog_incr_builder_sw_1.cpp.o
+
+polyhedron_prog_incr_builder_sw_1.i: polyhedron_prog_incr_builder_sw_1.cpp.i
+.PHONY : polyhedron_prog_incr_builder_sw_1.i
+
+# target to preprocess a source file
+polyhedron_prog_incr_builder_sw_1.cpp.i:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/polyhedron_prog_incr_builder_sw_1.cpp.i
+.PHONY : polyhedron_prog_incr_builder_sw_1.cpp.i
+
+polyhedron_prog_incr_builder_sw_1.s: polyhedron_prog_incr_builder_sw_1.cpp.s
+.PHONY : polyhedron_prog_incr_builder_sw_1.s
+
+# target to generate assembly for a file
+polyhedron_prog_incr_builder_sw_1.cpp.s:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_1.dir/polyhedron_prog_incr_builder_sw_1.cpp.s
+.PHONY : polyhedron_prog_incr_builder_sw_1.cpp.s
+
+polyhedron_prog_incr_builder_sw_triangle.o: polyhedron_prog_incr_builder_sw_triangle.cpp.o
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.o
+
+# target to build an object file
+polyhedron_prog_incr_builder_sw_triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/polyhedron_prog_incr_builder_sw_triangle.cpp.o
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.cpp.o
+
+polyhedron_prog_incr_builder_sw_triangle.i: polyhedron_prog_incr_builder_sw_triangle.cpp.i
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.i
+
+# target to preprocess a source file
+polyhedron_prog_incr_builder_sw_triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/polyhedron_prog_incr_builder_sw_triangle.cpp.i
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.cpp.i
+
+polyhedron_prog_incr_builder_sw_triangle.s: polyhedron_prog_incr_builder_sw_triangle.cpp.s
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.s
+
+# target to generate assembly for a file
+polyhedron_prog_incr_builder_sw_triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/build.make CMakeFiles/polyhedron_prog_incr_builder_sw_triangle.dir/polyhedron_prog_incr_builder_sw_triangle.cpp.s
+.PHONY : polyhedron_prog_incr_builder_sw_triangle.cpp.s
 
 polyhedron_prog_normals.o: polyhedron_prog_normals.cpp.o
 .PHONY : polyhedron_prog_normals.o
@@ -701,6 +812,9 @@ help:
 	@echo "... polyhedron_prog_cube"
 	@echo "... polyhedron_prog_cut_cube"
 	@echo "... polyhedron_prog_incr_builder"
+	@echo "... polyhedron_prog_incr_builder_backup"
+	@echo "... polyhedron_prog_incr_builder_sw_1"
+	@echo "... polyhedron_prog_incr_builder_sw_triangle"
 	@echo "... polyhedron_prog_normals"
 	@echo "... polyhedron_prog_off"
 	@echo "... polyhedron_prog_planes"
@@ -726,6 +840,15 @@ help:
 	@echo "... polyhedron_prog_incr_builder.o"
 	@echo "... polyhedron_prog_incr_builder.i"
 	@echo "... polyhedron_prog_incr_builder.s"
+	@echo "... polyhedron_prog_incr_builder_backup.o"
+	@echo "... polyhedron_prog_incr_builder_backup.i"
+	@echo "... polyhedron_prog_incr_builder_backup.s"
+	@echo "... polyhedron_prog_incr_builder_sw_1.o"
+	@echo "... polyhedron_prog_incr_builder_sw_1.i"
+	@echo "... polyhedron_prog_incr_builder_sw_1.s"
+	@echo "... polyhedron_prog_incr_builder_sw_triangle.o"
+	@echo "... polyhedron_prog_incr_builder_sw_triangle.i"
+	@echo "... polyhedron_prog_incr_builder_sw_triangle.s"
 	@echo "... polyhedron_prog_normals.o"
 	@echo "... polyhedron_prog_normals.i"
 	@echo "... polyhedron_prog_normals.s"
