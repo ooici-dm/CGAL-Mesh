@@ -7,21 +7,21 @@ Prototype work on a polyhedral mesh object API using CGAL:
 The following modules were added or modified:
 
 1. Added polyhedron_prog_incr_builder_sw_1.cpp - This module creates two triangles on the same polyhedron. It makes an include
-                                         - call to a cgal header file, specific to polyhedra, which enables printing
-                                         - the polyhedron objects in "pretty mode", so that one can easily visualize
-                                         - the objects that are created. In this module the polyhedron object is
-                                         - printed on the console after creating one triangle and then again after creating
-                                         - anothe one. A lot of valuable information can be gleaned from the output.
+                                         call to a cgal header file, specific to polyhedra, which enables printing
+                                         the polyhedron objects in "pretty mode", so that one can easily visualize
+                                         the objects that are created. In this module the polyhedron object is
+                                         printed on the console after creating one triangle and then again after creating
+                                         anothe one. A lot of valuable information can be gleaned from the output.
                                     
 2. Added polyhedron_prog_incr_builder_sw_triangle.cpp - This module creates two triangles on a polyhedron and then implements
-                                                      - a method which runs within loops the iterators for the different 
-                                                      - entities in the polyhedron. The three kinds of iterators used in this 
-                                                      - example are vertex iterators, edge iterators and facet iterators. 
+                                                      a method which runs within loops the iterators for the different 
+                                                      entities in the polyhedron. The three kinds of iterators used in this 
+                                                      example are vertex iterators, edge iterators and facet iterators. 
                                               
 3. Modified polyhedron_prog_incr_builder.cpp - The modified module creates a quadrilateral and implements two
-                                             - methods. The first method implements iterator loops that run over the whole 
-                                             - polyhedron. The second method implements iterator loops that run over quads
-                                             - defined over the polyhedron.
+                                             methods. The first method implements iterator loops that run over the whole 
+                                             polyhedron. The second method implements iterator loops that run over quads
+                                             defined over the polyhedron.
 
 4. Added polyhedron_prog_incr_builder_backup.cpp - This module is just a backup copy of the original polyhedron_prog_incr_builder.cpp
                                                  - that comes with the source code from the cgal website.
