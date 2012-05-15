@@ -80,8 +80,8 @@ create_single_source_cgal_program( "my_new_file.cpp" )
 
 Now you can use, cmake ., and make, in succession in order to generate the executables as usual.
 
-REFERENCES:
-----------
+DOCUMENTATION:
+--------------
 
 1. CGAL FAQs: I found the FAQs below very informative. They list all the concerns that several users had about how CGAL could fit their own 
 projects, and the answers from the CGAL team were honest, direct and very illuminating.
