@@ -1,0 +1,380 @@
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_ARRAY failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_ARRAY.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_ARRAY.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp:25:17: error: array: No such file or directory
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp:29: error: 'array' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp:29: error: expected primary-expression before 'int'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp:29: error: expected `;' before 'int'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_ARRAY.cpp:32: error: expected `}' at end of input
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_ARRAY.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_AUTO failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_AUTO.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_AUTO.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_AUTO.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_AUTO.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_AUTO.cpp:34: error: ISO C++ forbids declaration of 'i' with no type
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_AUTO.cpp:34: error: cannot convert 'A' to 'int' in initialization
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_AUTO.cpp:35: error: conversion from 'int' to non-scalar type 'A' requested
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_AUTO.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_COPY_N failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_COPY_N.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_COPY_N.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_COPY_N.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_COPY_N.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_COPY_N.cpp:31: error: 'copy_n' is not a member of 'std'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_COPY_N.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_DECLTYPE failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:44: error: 'decltype' was not declared in this scope
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:44: error: expected `;' before 'j'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:45: error: 'j' was not declared in this scope
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:46: error: 'decltype' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:46: error: 'i' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:46: error: a function call cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:46: error: template argument 1 is invalid
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: 'decltype' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: 'int f_copy(int)' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: 'i' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: a function call cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: a function call cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:47: error: template argument 1 is invalid
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: 'decltype' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: 'const int& f_cref(const int&)' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: 'i' cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: a function call cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: a function call cannot appear in a constant-expression
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp:48: error: template argument 1 is invalid
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DECLTYPE.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp:30: error: default template arguments may not be used in function templates
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp:42: error: no matching function for call to 'f(Point)'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DEFAULT_TEMPLATE_ARGUMENTS_FOR_FUNCTION_TEMPLATES.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp: In constructor 'A::A()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp:27: error: type 'A' is not a direct base of 'A'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELEGATING_CONSTRUCTORS.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:24: error: invalid pure specifier (only `= 0' is allowed) before ';' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:25: error: invalid pure specifier (only `= 0' is allowed) before ';' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:26: error: invalid pure specifier (only `= 0' is allowed) before ';' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:24: error: initializer specified for non-virtual method 'A::A()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:25: error: initializer specified for non-virtual method 'A::A(int)'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp:26: error: initializer specified for non-virtual method 'A::A(const A&)'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_DELETED_AND_DEFAULT_FUNCTIONS.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:23:28: error: initializer_list: No such file or directory
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:33: error: expected `)' before '<' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:43: error: a function-definition is not allowed here before '{' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:44: error: a function-definition is not allowed here before '{' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:45: error: 'z' was not declared in this scope
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp:45: error: 'v' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_INITIALIZER_LISTS.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_LAMBDAS failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp:31: error: expected primary-expression before '[' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp:31: error: expected primary-expression before ']' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp:31: error: expected primary-expression before 'float'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp:31: error: expected primary-expression before 'float'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_LAMBDAS.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_NEXT_PREV failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp:32: error: 'next' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp:33: error: 'prev' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp:35: error: 'next' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp:36: error: 'prev' is not a member of 'std'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_NEXT_PREV.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:31: error: expected ',' or '...' before '&&' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:31: error: invalid constructor; you probably meant 'A (const A&)'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:32: error: expected ',' or '...' before '&&' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:44: error: expected unqualified-id before '&&' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:53: error: ambiguous overload for 'operator=' in 'b = a'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:28: note: candidates are: A& A::operator=(const A&)
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:32: note:                 A& A::operator=(A)
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:54: error: ambiguous overload for 'operator=' in 'b = f()()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:28: note: candidates are: A& A::operator=(const A&)
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:32: note:                 A& A::operator=(A)
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:37: error: too many arguments to function 'A f()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:55: error: at this point in file
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:55: error: ambiguous overload for 'operator=' in 'b = f()()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:28: note: candidates are: A& A::operator=(const A&)
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp:32: note:                 A& A::operator=(A)
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_RVALUE_REFERENCE.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_STATIC_ASSERT failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp:24: error: 'static_assert' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_STATIC_ASSERT.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_TUPLE failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_TUPLE.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_TUPLE.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:25:17: error: tuple: No such file or directory
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:29: error: 'tuple' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:29: error: expected primary-expression before 'int'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:29: error: expected `;' before 'int'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:30: error: 'get' is not a member of 'std'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_TUPLE.cpp:30: error: 'a' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_TUPLE.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing     -o CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:46: error: expected nested-name-specifier before '...' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:46: error: expected '>' before '...' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:47: error: expected ',' or '...' before '&' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:47: error: ISO C++ forbids declaration of 'Args' with no type
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp: In function 'void print(const T&, int)':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:50: error: 'args' was not declared in this scope
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp: At global scope:
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:55: error: expected nested-name-specifier before '...' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:55: error: expected '>' before '...' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:56: error: expected ',' or '...' before '&' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:56: error: ISO C++ forbids declaration of 'Args' with no type
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp: In function 'void f(int)':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:58: error: 'args' was not declared in this scope
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:58: error: expected `)' before '...' token
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:53: error: too many arguments to function 'void f()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:64: error: at this point in file
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:53: error: too many arguments to function 'void f()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:65: error: at this point in file
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:53: error: too many arguments to function 'void f()'
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/config/testfiles/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp:66: error: at this point in file
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CGAL_CFG_NO_CPP0X_VARIADIC_TEMPLATES.cpp.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Return value: 1
+Source file was:
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing   -I/usr/local/Cellar/qt/4.7.4/include -F/usr/local/Cellar/qt/4.7.4/lib    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'Q_WS_X11' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_X11
+  cmakeRequireSymbol(0,&Q_WS_X11);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing   -I/usr/local/Cellar/qt/4.7.4/include -F/usr/local/Cellar/qt/4.7.4/lib    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'Q_WS_WIN' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_WIN
+  cmakeRequireSymbol(0,&Q_WS_WIN);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+"/Applications/CMake 2.8-6.app/Contents/bin/cmake" -E cmake_progress_report /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -frounding-math -fno-strict-aliasing   -I/usr/local/Cellar/qt/4.7.4/include -F/usr/local/Cellar/qt/4.7.4/lib    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main()':
+/Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'Q_WS_QWS' was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /Users/SChatterjee/coi-pyon-libraries/code/cgal-4.0/CGAL-4.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
