@@ -1,7 +1,30 @@
 CGAL-Mesh
 =========
 
-Prototype work on a polyhedral mesh object API using CGAL
+Prototype work on a polyhedral mesh object API using CGAL:
+---------------------------------------------------------
+
+The following modules were added:
+
+1. polyhedron_prog_incr_builder_sw_1.cpp - This module creates two triangles on the same polyhedron. It makes an include
+                                         - call to a cgal header file, specific to polyhedra, which enables printing
+                                         - the polyhedron objects in "pretty mode", so that one can easily visualize
+                                         - the objects that are created. In this module the polyhedron object is
+                                         - printed on the console after creating one triangle and then again after creating
+                                         - anothe one. A lot of valuable information can be gleaned from the output.
+                                    
+2. polyhedron_prog_incr_builder_sw_triangle.cpp - This module creates two triangles on a polyhedron and then implements
+                                                - a method which runs within loops the iterators for the different 
+                                                - entities in the polyhedron. The three kinds of iterators used in this 
+                                                - example are vertex iterators, edge iterators and facet iterators. 
+                                                - 
+3. polyhedron_prog_incr_builder_backup.cpp - This module is just a backup copy of the original polyhedron_prog_incr_builder.cpp
+                                           - that comes with the source code from the cgal website.
+
+
+Also, the module polyhedron_prog_incr_builder.cpp was modified.The modified module creates a quadrilateral and implements two
+methods. The first method implements iterator loops that run over the whole polyhedron. The second method implements
+iterator loops that run over quads defined over the polyhedron.
 
 INSTALLING CGAL:
 ---------------
