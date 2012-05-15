@@ -193,7 +193,7 @@ void running_iterators( Polyhedron& P) {
     CGAL_postcondition( P.is_valid());
 }
 
-void running_vertex_iterator_over_triangle( Polyhedron& P) {
+void running_vertex_iterator_over_quad( Polyhedron& P) {
 
     int k = 0;
 
@@ -230,7 +230,7 @@ int main() {
     
 //    running_iterators(P);
 
-    running_vertex_iterator_over_triangle(P);
+    running_vertex_iterator_over_quad(P);
 
     return 0;
 }
