@@ -61,11 +61,11 @@ REFERENCES:
 
 1. CGAL FAQs: 
 
+I found the FAQs very informative. They list all the concerns that several users had about how CGAL could fit their own 
+projects, and the answers from the CGAL team were honest, direct and very illuminating.
+
 http://www.cgal.org/FAQ.html
 
-I found these FAQs very informative. It lists all the concerns that several users had about how
-CGAL could fit their own projects, and the answers from the CGAL team were very honest, direct and
-illuminating.
 
 2. CGAL Source files: 
 
