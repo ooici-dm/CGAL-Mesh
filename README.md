@@ -59,17 +59,25 @@ Now you can use, cmake ., and make, in succession in order to generate the execu
 REFERENCES:
 ----------
 
-1. CGAL FAQs: http://www.cgal.org/FAQ.html
+1. CGAL FAQs: 
+
+http://www.cgal.org/FAQ.html
 
 I found these FAQs very informative. It lists all the concerns that several users had about how
 CGAL could fit their own projects, and the answers from the CGAL team were very honest, direct and
 illuminating.
 
-2. CGAL Source files: https://gforge.inria.fr/frs/?group_id=52&release_id=6970
+2. CGAL Source files: 
 
-3. Tutorials: http://www.cgal.org/Tutorials/
+https://gforge.inria.fr/frs/?group_id=52&release_id=6970
 
-4. Package Overview : http://www.cgal.org/Manual/latest/doc_html/cgal_manual/packages.html#part_II 
+3. Tutorials: 
+
+http://www.cgal.org/Tutorials/
+
+4. Package Overview : 
+
+http://www.cgal.org/Manual/latest/doc_html/cgal_manual/packages.html#part_II 
 
 5. Installation Guide: 
 
