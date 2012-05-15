@@ -12,8 +12,12 @@ $ git clone git@github.com:ooici-dm/CGAL-Mesh.git
 
 (or if that does not work, try $ git clone https://github.com/ooici-dm/CGAL-Mesh )
 
-Alternatively, you can go to the website to download the source code (Note: A form has to be filled. But this form
-is just for information, and submitting the form will immediately lead to the downloadable source) 
+Alternatively, you can go to the website to download the source code. 
+
+https://gforge.inria.fr/frs/?group_id=52&release_id=6970
+
+Please note that you may be required to submit an online form. However, the form is just for some basic information, 
+and submitting the form immediately opens the door to downloadable source.
 
 After you have the repository in a directory of your choosing (let us say you have called it CGAL-4.0), you need to set 
 the environment variable, CGAL_DIR, so that CGAL can find its files in order to run:
@@ -59,9 +63,7 @@ Now you can use, cmake ., and make, in succession in order to generate the execu
 REFERENCES:
 ----------
 
-1. CGAL FAQs: 
-
-I found the FAQs very informative. They list all the concerns that several users had about how CGAL could fit their own 
+1. CGAL FAQs: I found the FAQs below very informative. They list all the concerns that several users had about how CGAL could fit their own 
 projects, and the answers from the CGAL team were honest, direct and very illuminating.
 
 http://www.cgal.org/FAQ.html
