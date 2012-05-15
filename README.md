@@ -3,7 +3,8 @@ CGAL-Mesh
 
 Prototype work on a polyhedral mesh object API using CGAL
 
-Installing CGAL:
+INSTALLING CGAL:
+---------------
 
 Clone the CGAL repository using:
 
@@ -56,6 +57,7 @@ create_single_source_cgal_program( "my_new_file.cpp" )
 Now you can use, cmake ., and make, in succession in order to generate the executables as usual.
 
 REFERENCES:
+----------
 
 1. CGAL FAQs: http://www.cgal.org/FAQ.html
 
