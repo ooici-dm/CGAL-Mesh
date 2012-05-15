@@ -6,7 +6,9 @@ Prototype work on a polyhedral mesh object API using CGAL
 Installing CGAL:
 
 Clone the CGAL repository using,
+
 $ git clone git@github.com:ooici-dm/CGAL-Mesh.git
+
 (or if that does not work, try $ git clone https://github.com/ooici-dm/CGAL-Mesh )
 
 Alternatively, you can go to the website to download the source code (Note: A form has to be filled. But this form
