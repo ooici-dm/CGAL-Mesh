@@ -35,7 +35,7 @@ CMakeLists.txt file in that same directory, but I will come to that piece next).
 The executables are going to be generated in the same folder. To run the executable, 
 $ ./file_name
 
-For example, if you are in CGAL-4.0/examples/Polyhedron and you have run the above two make commands, for every .cpp file,
+For example, if you are in CGAL-4.0/examples/Polyhedron and you have already run the above two make commands, for every .cpp file,
 an executable would have been generated. Therefore if there was a .cpp file, polyhedron_prog_incr_builder.cpp, it would
 have also generated an executable, polyhedron_prog_incr_builder. You can now run this executable using the following 
 command:
